@@ -130,3 +130,4 @@ def test_user_to_dict():
     assert data["height"] == 175
     assert data["role"] == "user"
     assert "password_hash" in data
+

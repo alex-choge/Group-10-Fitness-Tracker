@@ -1,6 +1,5 @@
 import hashlib
 
-
 class User:
 
     def __init__(
@@ -88,3 +87,4 @@ class User:
             "workouts": self.workouts,
             "goals": [g.to_dict() for g in self.goals]
         }
+
