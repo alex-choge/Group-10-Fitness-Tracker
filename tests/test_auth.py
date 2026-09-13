@@ -4,6 +4,7 @@ import os
 
 
 def test_register_and_login():
+
     with tempfile.NamedTemporaryFile(delete=False) as tmp:
         tmp_path = tmp.name
 
