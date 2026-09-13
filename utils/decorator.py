@@ -1,5 +1,6 @@
 from functools import wraps
 
+
 def login_required(function):
     @wraps(function)
     def wrapper(self, *args, **kwargs):
