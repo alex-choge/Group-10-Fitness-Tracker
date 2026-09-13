@@ -1,0 +1,13 @@
+[
+    {
+        "username": "Dorothy",
+        "email": "chemu45@gmail.com",
+        "password_hash": "ceaa28bba4caba687dc31b1bbe79eca3c70c33f871f1ce8f528cf9ab5cfd76dd",
+        "age": 23,
+        "weight": 60.0,
+        "height": 4.5,
+        "role": "user",
+        "workouts": [],
+        "goals": []
+    }
+]

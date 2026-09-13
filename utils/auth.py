@@ -3,7 +3,7 @@ from pathlib import Path
 from models.user import User
 from models.admin import Admin
 from utils.storage import load_json, save_json
-from utils.validators import not_empty, valid_email
+from utils.validation import not_empty, valid_email
 
 
 class AuthManager:
@@ -45,7 +45,6 @@ class AuthManager:
                     "An account with that email already exists."
                 )
 
-        # User class hashes the password
         if role == "admin":
             user = Admin(name, email, password)
         else:
