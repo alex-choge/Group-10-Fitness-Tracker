@@ -1,4 +1,5 @@
 class Goal:
+
     def __init__(self, title, description):
         self.title = title
         self.description = description
@@ -14,3 +15,6 @@ class Goal:
             "description": self.description,
             "status": self.status
         }
+
+    def __str__(self):
+        return f"{self.title}: {self.description} [{self.status}]"
